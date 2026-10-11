@@ -1,0 +1,36 @@
+﻿# Patient data — NEVER push
+preprocessed/
+lung_masks/
+annotations/
+patches/
+client2/
+client3/
+client4/
+client5/
+*.npy
+*.dcm
+
+# Patient identifiers — Option B, push generators instead
+federation_splits.json
+global_test_pids.json
+experiments/severe_noniid/severe_noniid_splits.json
+experiments/severe_noniid/severe_noniid_assignment.csv
+experiments/severe_noniid/client1_split_manifest.json
+experiments/severe_noniid/client2_split_manifest.json
+experiments/severe_noniid/client3_split_manifest.json
+experiments/severe_noniid/client4_split_manifest.json
+experiments/severe_noniid/client5_split_manifest.json
+experiments/severe_noniid/global_test_pids_severe.json
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

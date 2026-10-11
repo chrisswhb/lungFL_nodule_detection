@@ -1,0 +1,40 @@
+{
+  "name": "severe_noniid",
+  "version": "v6",
+  "strategy": "thickness \u00d7 nodule_size \u00d7 clean_percentage",
+  "thickness_bands": {
+    "thin": "\u22641.25mm",
+    "medium": "1.25-2.0mm",
+    "thick": ">2.0mm"
+  },
+  "nodule_size_split": "<8mm=small  \u22658mm=large",
+  "target_clean_pct": {
+    "client1": 0.45,
+    "client2": 0.1,
+    "client3": 0.3,
+    "client4": 0.45,
+    "client5": 0.1
+  },
+  "client_descriptions": {
+    "1": "thin+small+high_clean  \u2192 screening program",
+    "2": "thin+large+low_clean   \u2192 nodule referral center",
+    "3": "medium+any+mid_clean   \u2192 general hospital",
+    "4": "thick+small+high_clean \u2192 older scanner, general pop",
+    "5": "thick+large+low_clean  \u2192 older scanner, referral"
+  },
+  "client_sizes": {
+    "1": 245,
+    "2": 229,
+    "3": 125,
+    "4": 127,
+    "5": 170
+  },
+  "cv_thickness_moderate": 12.98,
+  "cv_thickness_severe": 28.35,
+  "cv_nodule_moderate": 12.17,
+  "cv_nodule_severe": 34.45,
+  "cv_clean_moderate": 24.42,
+  "cv_clean_severe": 72.4,
+  "cv_nods_moderate": 19.32,
+  "cv_nods_severe": 33.07
+}

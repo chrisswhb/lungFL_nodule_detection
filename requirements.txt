@@ -1,0 +1,11 @@
+﻿torch==2.5.1
+torchvision
+SimpleITK
+pylidc
+numpy
+scipy
+matplotlib
+pandas
+flwr==1.5.0
+scikit-learn
+tqdm

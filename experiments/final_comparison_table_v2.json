@@ -1,0 +1,72 @@
+{
+  "Client 1 local": {
+    "cpm": 0.6896,
+    "sensitivity": 0.9231,
+    "precision": 0.3582,
+    "f1": 0.5161,
+    "fp_per_scan": 3.5833,
+    "total_gt": 52,
+    "n_patients": 24,
+    "cpm_vs_c1_local_pct": 0.0
+  },
+  "FedAvg moderate": {
+    "cpm": 0.7412,
+    "sensitivity": 0.9143,
+    "precision": 0.2593,
+    "f1": 0.404,
+    "fp_per_scan": 3.4361,
+    "total_gt": 175,
+    "n_patients": 133,
+    "cpm_vs_c1_local_pct": 5.17
+  },
+  "FedProx moderate (\u03bc=0.01)": {
+    "cpm": 0.7029,
+    "sensitivity": 0.88,
+    "precision": 0.2895,
+    "f1": 0.4356,
+    "fp_per_scan": 2.8421,
+    "total_gt": 175,
+    "n_patients": 133,
+    "cpm_vs_c1_local_pct": 1.33
+  },
+  "FedAvg severe": {
+    "cpm": 0.5826,
+    "sensitivity": 0.743,
+    "precision": 0.2742,
+    "f1": 0.4006,
+    "fp_per_scan": 2.6667,
+    "total_gt": 179,
+    "n_patients": 132,
+    "cpm_vs_c1_local_pct": -10.7
+  },
+  "FedProx severe (\u03bc=0.01)": {
+    "cpm": 0.6361,
+    "sensitivity": 0.7821,
+    "precision": 0.3333,
+    "f1": 0.4674,
+    "fp_per_scan": 2.1212,
+    "total_gt": 179,
+    "n_patients": 132,
+    "cpm_vs_c1_local_pct": -5.35
+  },
+  "FedProx severe (\u03bc=0.10)": {
+    "cpm": 0.3575,
+    "sensitivity": 0.4022,
+    "precision": 0.576,
+    "f1": 0.4737,
+    "fp_per_scan": 0.4015,
+    "total_gt": 179,
+    "n_patients": 132,
+    "cpm_vs_c1_local_pct": -33.2
+  },
+  "DP-FedAvg moderate (\u03b5\u22485)": {
+    "cpm": 0.7241,
+    "sensitivity": 0.8971,
+    "precision": 0.2657,
+    "f1": 0.4099,
+    "fp_per_scan": 3.2632,
+    "total_gt": 175,
+    "n_patients": 133,
+    "cpm_vs_c1_local_pct": 3.45
+  }
+}
